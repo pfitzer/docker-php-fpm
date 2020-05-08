@@ -27,7 +27,28 @@ RUN apt-get install -y \
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install -j$(nproc) gd curl pdo pdo_mysql session json mbstring bcmath exif fileinfo gettext iconv opcache soap dom zip xmlrpc xmlwriter phar
+    && docker-php-ext-install -j$(nproc) gd \
+        curl \
+        pdo \
+        pdo_mysql \
+        session \
+        json \
+        mbstring \
+        bcmath \
+        exif \
+        fileinfo \
+        gettext \
+        iconv \
+        opcache \
+        soap \
+        dom \
+        zip \
+        xml \
+        xmlrpc \
+        xmlwriter \
+        phar \
+        sockets \
+        posix
 
 RUN pecl channel-update pecl.php.net \
     && yes | pecl install xdebug \

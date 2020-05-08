@@ -22,6 +22,9 @@ PHP Docker Image
 * xmlrpc
 * xmlwiter
 * phar
+* xml
+* sockets
+* posix
 
 **pull**
 ````shell script
