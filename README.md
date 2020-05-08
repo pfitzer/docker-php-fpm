@@ -3,7 +3,6 @@ PHP Docker Image
 **PHP 7.4-fpm**
 
 **Extensions**
-* memcached
 * Composer
 * gd
 * xdebug
