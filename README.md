@@ -26,5 +26,5 @@ PHP Docker Image
 
 **pull**
 ````shell script
-$ docker pull pfitzer/php7-fpm
+$ docker pull pfitzer/php-fpm
 ````
