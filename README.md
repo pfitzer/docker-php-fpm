@@ -43,3 +43,5 @@ Run the PHP-FPM image, mounting a directory from your host.
 ````shell script
 docker run -it --name php-fpm -v /path/to/your/app:/app pfitzer/php-fpm:latest php script.php
 ````
+
+[!coffee](https://cdn.buymeacoffee.com/buttons/lato-orange.png)](https://www.buymeacoffee.com/pfitzer)
