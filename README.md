@@ -10,9 +10,6 @@ PHP Docker Image
 * Composer
 * gd
 * xdebug
-* PDO MySql
-* session
-* json
 * mbstring 
 * bcmath 
 * exif 
