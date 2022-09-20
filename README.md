@@ -2,9 +2,7 @@ PHP Docker Image
 ----------------
 **Images**
 
-[php-fpm:latest](https://github.com/pfitzer/docker-php-fpm/blob/master/Dockerfile)
-
-[php-fpm:7.3](https://github.com/pfitzer/docker-php-fpm/blob/master/Dockerfile.73)
+[php-fpm:latest](https://github.com/pfitzer/docker-php-fpm/blob/master/Dockerfile.81)
 
 **Extensions**
 * Composer
@@ -38,7 +36,14 @@ Running PHP apps
 Run the PHP-FPM image, mounting a directory from your host.
 
 ````shell script
-docker run -it --name php-fpm -v /path/to/your/app:/app pfitzer/php-fpm:latest php script.php
+docker run -it --name php-fpm -v /path/to/your/app:/var/www/html pfitzer/php-fpm:latest php script.php
+````
+
+using the docker-compose example
+````shell script
+cd example
+docker-compose up -d
+# goto http://localhost:8080
 ````
 
 [![coffee](https://cdn.buymeacoffee.com/buttons/lato-orange.png)](https://www.buymeacoffee.com/pfitzer)
