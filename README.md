@@ -7,7 +7,7 @@ PHP Docker Image
 **Extensions**
 * Composer
 * gd
-* xdebug
+* xdebug (PHP<8.3)
 * mbstring 
 * bcmath 
 * exif 
